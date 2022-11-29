@@ -1,0 +1,8 @@
+name: LR
+
+conda_env: LR.yaml
+entry_points:
+ main:
+    parameters:
+      pf: {type: int, default: 1}
+    command: "python lr.py {pf}"
